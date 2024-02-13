@@ -7,7 +7,7 @@ import time
 import requests
 import os
 import platform
-from discord import Webhook, RequestsWebhookAdapter
+from discord import Webhook
 from urllib.request import Request, urlopen
 from json import loads, dumps
 web_hook_url = r""
